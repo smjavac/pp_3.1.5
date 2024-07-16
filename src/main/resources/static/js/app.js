@@ -25,6 +25,8 @@ async function fillModalForm(form, modal, id) {
     form.lastName.value = user.lastName
     form.age.value = user.age
     form.email.value = user.email
+    form.password.value = user.password
+
 }
 
 
@@ -43,6 +45,7 @@ function fillUsersTable() {
                             <td>${user.age}</td>   
                             <td>${user.email}</td>
                             <td>${user.roles.map(role => ' ' + role.authority.substring(5))}</td>
+                          
                             <td>
                                 <button type="button" class="btn btn-info"
                                 data-bs-toogle="modal"

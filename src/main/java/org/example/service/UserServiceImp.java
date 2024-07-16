@@ -73,7 +73,7 @@ public class UserServiceImp implements UserService {
         existingUser.setLastName((user.getLastName()));
         existingUser.setAge(user.getAge());
         existingUser.setEmail(user.getEmail());
-        existingUser.setEmail(user.getEmail());
+        existingUser.setRoles(user.getRoles());
         userRepository.save(existingUser);
     }
 

@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class IniziBD {
+public class DBInitialization {
     private final UserService userService;
 
-    public IniziBD(UserService userService) {
+    public DBInitialization(UserService userService) {
         this.userService = userService;
     }
 
@@ -26,7 +26,7 @@ public class IniziBD {
             List<Role> adminRoles = new ArrayList<>();
             adminRoles.add(userRole);
             adminRoles.add(adminRole);
-            User admin = new User(adminRoles, "xamz", "tutu", 20L, "admin@mail.ru", "admin");
+            User admin = new User(adminRoles, "user", "lastname", 30L, "admin@mail.ru", "admin");
 
             userService.save(admin);
 
