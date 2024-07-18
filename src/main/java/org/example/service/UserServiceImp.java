@@ -1,6 +1,6 @@
 package org.example.service;
-import org.example.dao.RoleRepository;
-import org.example.dao.UserRepository;
+import org.example.repository.RoleRepository;
+import org.example.repository.UserRepository;
 import org.example.model.Role;
 import org.example.model.User;
 import org.springframework.context.annotation.Lazy;
@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
+@Transactional(readOnly = true)
 public class UserServiceImp implements UserService {
 
     private final UserRepository userRepository;
@@ -26,7 +27,6 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    @Transactional(readOnly = true)
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         User user = userRepository.findByEmail(email);
         if (user == null) {
@@ -36,13 +36,11 @@ public class UserServiceImp implements UserService {
     }
 
     @Override
-    @Transactional(readOnly = true)
     public List<User> listAll() {
         return userRepository.findAll();
     }
 
     @Override
-    @Transactional(readOnly = true)
     public User getById(Long id) {
         return userRepository.findById(id).orElse(null);
     }
@@ -77,13 +75,11 @@ public class UserServiceImp implements UserService {
         userRepository.save(existingUser);
     }
 
-    @Transactional
     @Override
     public User findByEmail(String email) {
         return userRepository.findByEmail(email);
     }
 
-    @Transactional
     @Override
     public List<Role> listRoles() {
         return roleRepository.findAll();

@@ -1,18 +1,18 @@
 package org.example.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
-
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.List;
-@NoArgsConstructor
+
+
+
 @AllArgsConstructor
-@Data
+@NoArgsConstructor
+@Setter
+@Getter
 @Entity
 @Table(name = "users")
 public class User implements UserDetails {
@@ -49,6 +49,7 @@ public class User implements UserDetails {
         this.email = email;
         this.password = password;
     }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return getRoles();

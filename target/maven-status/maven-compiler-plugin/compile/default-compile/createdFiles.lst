@@ -1,0 +1,12 @@
+org\example\config\SuccessUserHandler.class
+org\example\model\User.class
+org\example\dao\UserRepository.class
+org\example\config\IniziBD.class
+org\example\model\Role.class
+org\example\controller\AdminRestController.class
+org\example\service\UserServiceImp.class
+org\example\controller\ViewController.class
+org\example\config\WebSecurityConfig.class
+org\example\dao\RoleRepository.class
+org\example\service\UserService.class
+org\example\SpringBootSecurityDemoApplication.class

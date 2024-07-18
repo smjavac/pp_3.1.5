@@ -22,6 +22,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         this.userService = userService;
         this.successUserHandler = successUserHandler;
     }
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
@@ -42,7 +43,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
                 .and().csrf().disable();
     }
-
 
     @Bean
     public DaoAuthenticationProvider daoAuthenticationProvider() {
