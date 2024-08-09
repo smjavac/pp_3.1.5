@@ -1,12 +1,12 @@
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\SpringBootSecurityDemoApplication.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\controller\ViewController.java
-C:\java\My projects\pp_3.1.5\src\main\java\org\example\config\IniziBD.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\controller\AdminRestController.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\model\Role.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\model\User.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\config\WebSecurityConfig.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\service\UserServiceImp.java
-C:\java\My projects\pp_3.1.5\src\main\java\org\example\dao\UserRepository.java
+C:\java\My projects\pp_3.1.5\src\main\java\org\example\config\DBInitialization.java
+C:\java\My projects\pp_3.1.5\src\main\java\org\example\repository\RoleRepository.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\config\SuccessUserHandler.java
-C:\java\My projects\pp_3.1.5\src\main\java\org\example\dao\RoleRepository.java
+C:\java\My projects\pp_3.1.5\src\main\java\org\example\repository\UserRepository.java
 C:\java\My projects\pp_3.1.5\src\main\java\org\example\service\UserService.java

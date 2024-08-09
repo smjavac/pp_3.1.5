@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-
 import java.security.Principal;
 
 @Controller
@@ -19,6 +18,7 @@ public class ViewController {
 
     @GetMapping("/")
     public String home() {
+
         return "redirect:/login";
     }
 

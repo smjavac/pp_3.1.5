@@ -1,0 +1,54 @@
+[33mcommit 0d466f4e04ae9fbc61e4fef4803f59ac611f65cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: smjavac <sm.yusupov@mail.ru>
+Date:   Thu Jul 18 09:59:57 2024 +0300
+
+    last commit
+
+[33mcommit 5e58794f4da7752e7a55330225f43bd1ba404c54[m
+Author: smjavac <sm.yusupov@mail.ru>
+Date:   Tue Jul 16 12:55:58 2024 +0300
+
+    logger has been added
+
+[33mcommit 7b90764e6fb343e40ceabd0b59a34b60827088f1[m
+Author: smjavac <sm.yusupov@mail.ru>
+Date:   Tue Jul 16 12:10:03 2024 +0300
+
+    first commit
+
+[33mcommit 9fafb8b69ee592a0b56b4524ed46a13bb507b962[m
+Author: Xamz <bugi@gmail.com>
+Date:   Fri Jul 12 19:18:08 2024 +0300
+
+    init
+
+[33mcommit 07e767fc7d6adae66d50209a6441db8d16185007[m
+Merge: 464220e 63d3810
+Author: Xamz <bugi@gmail.com>
+Date:   Fri Jul 12 19:13:37 2024 +0300
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 464220ed23b03b62d5d1341f63fd176fd64240a6[m
+Author: Xamz <bugi@gmail.com>
+Date:   Thu Jul 11 13:23:58 2024 +0300
+
+    init
+
+[33mcommit 63d38107164f246c2cea68a62bd009619baf8ab8[m
+Author: Xamz <bugi@gmail.com>
+Date:   Thu Jul 11 13:23:58 2024 +0300
+
+    init
+
+[33mcommit 2a3fc207b375ab0eed242e5c619f2af3ce09e481[m
+Author: Xamz <bugi@gmail.com>
+Date:   Thu Jul 11 13:22:43 2024 +0300
+
+    init
+
+[33mcommit e39a8e43309503424f61261092411f1c484a4193[m
+Author: Xamz <bugi@gmail.com>
+Date:   Thu Jul 4 23:51:37 2024 +0300
+
+    init
